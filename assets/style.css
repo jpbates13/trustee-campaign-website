@@ -84,9 +84,13 @@ option:hover{
     display:inline-block !important;
     text-align: left !important;
   }
+  .option{
+    margin: auto;
+    margin-bottom: 10px;
+  }
   .titlePage{
     top: 10%;
-    bottom: 10%;
+    bottom: 33%;
   }
 }
 
