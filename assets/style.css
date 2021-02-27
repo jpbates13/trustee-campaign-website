@@ -84,5 +84,9 @@ option:hover{
     display:inline-block !important;
     text-align: left !important;
   }
+  .titlePage{
+    top: 10%;
+    bottom: 10%;
+  }
 }
 
