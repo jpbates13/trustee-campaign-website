@@ -42,7 +42,6 @@ body, html {
 }
 
 .option {
-  display:inline-block;
   border:1px solid black;
   cursor:pointer;
   vertical-align:middle;
@@ -61,6 +60,9 @@ option:hover{
   .footer {
     width: 100%;
     text-align: center;
+  }
+  .option{
+    display: inline-block;
   }
 }
 .social-icon{
@@ -81,9 +83,6 @@ option:hover{
   .pageMenu{
     display:inline-block !important;
     text-align: left !important;
-  }
-  .option{
-    display: none;
   }
 }
 
