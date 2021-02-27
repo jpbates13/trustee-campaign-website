@@ -1,9 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+*{
+  font-family: 'Shippori Mincho B1', serif;
+  
+}
+body, html {
+  height: 100%;
+  position: relative;
+}
+.bg {
+  /* The image used */
+  background-image: url("/assets/images/umassbackground.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.translucent {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1%;
+}
+
+.titlePage{
+  position:absolute;
+  width: 75%; /*your desired width*/
+  top:33%;
+  bottom: 33%;
+  left:0;
+  right:0;
+  margin:auto auto;
+  text-align:center;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+}
+
+.option {
+  display:inline-block;
+  border:1px solid black;
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 100px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+option:hover{
+  background: black;
+  color: white;
+}
+
 /* Desktop Only CSS */
 @media only screen and (min-width: 767px){
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
   }
