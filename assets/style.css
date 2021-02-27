@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap');
 
 *{
   font-family: 'Shippori Mincho B1', serif;
@@ -44,7 +44,7 @@ body, html {
   border:1px solid black;
   cursor:pointer;
   vertical-align:middle;
-  max-width: 100px;
+  max-width: 125px;
   padding: 10px;
   margin: 10px;
   text-align: center;
