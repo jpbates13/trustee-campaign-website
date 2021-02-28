@@ -13,13 +13,12 @@ html {
   background-image: url("/assets/images/umassbackground.jpg");
 
   /* Full height */
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
   position: static;
 }
@@ -30,7 +29,7 @@ html {
 }
 
 .titlePage {
-  position: absolute;
+  position: static;
   width: 75%; /*your desired width*/
   top: 33%;
   bottom: 33%;
