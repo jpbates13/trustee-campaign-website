@@ -101,7 +101,13 @@ html {
     margin-bottom: 10px;
   }
   .titlePage {
-    top: 10%;
-    bottom: 33%;
+    margin: 5% auto;
+    margin-top: 12%;
+    height: 57%;
+  }
+  .elementOpen {
+    margin-top: 1%;
+    height: 95%;
+    transition: all 1s ease;
   }
 }
