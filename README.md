@@ -1,3 +1,3 @@
-# jpbates13.github.io
+# trustee.jakebates.com
 
-A constantly maintained personal website that serves as a directory of my resume, personal projects, as well as other relevant documents accessible at http://www.jakebates.com/
+Website for my campaign to be UMass Boston's 2021-22 Student Trustee
